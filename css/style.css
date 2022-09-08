@@ -1,0 +1,282 @@
+.sec1 {
+    height: 100vh;
+    background-image: url(../images/se1Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4 {
+    background-color: black;
+}
+
+.sec5 {
+    background-color: #DFB191;
+}
+
+.sec6 {
+    background-color: white;
+    margin-top: 200px;
+}
+
+.wack {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.store {
+    height: 100vh;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0e162400 !important;
+    background-image: url(../images/buttonbg.png) !important;
+    background-size: 100%;
+    font-weight: 600;
+}
+
+.act {
+    color: #fff;
+    background-color: #0e162400 !important;
+    background-image: url(../images/buttonbg.png) !important;
+    background-size: 100%;
+    font-weight: 600;
+}
+
+.delay1 {
+    animation-delay: 0.2s;
+}
+
+.delay2 {
+    animation-delay: 0.4s !important;
+}
+
+.delay3 {
+    animation-delay: 0.6s !important;
+}
+
+.delay4 {
+    animation-delay: 0.8s !important;
+}
+
+.delay5 {
+    animation-delay: 1s !important;
+}
+
+a {
+    text-decoration-line: none !important;
+}
+
+.footer {
+    height: 300px;
+    background-color: #E5D498;
+}
+
+.footerDiv {
+    background-color: #fefcf3;
+    border: 5px solid #ce995d;
+    transform: translate(0%, -20%);
+
+}
+
+.iconcolour {
+    color: #cd8e47;
+}
+
+.iconcolour:hover {
+    color: #cd8e47;
+}
+
+.weig {
+    font-weight: 600;
+}
+
+.copyright {
+    background-color: #DECA5F;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.wid1 {
+    width: 82px;
+}
+
+.wid2 {
+    width: 119px;
+}
+
+.wid3 {
+    width: 74px;
+}
+
+.btn-check:focus+.btn-light,
+.btn-light:focus {
+    color: #000;
+    background-color: #f9fafb;
+    border-color: #f9fafb;
+    box-shadow: 0 0 0 0rem rgb(211 212 213 / 50%) !important;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.aboutSec1 {
+    background-image: url(../images/se1Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.artistSocialLink {
+    width: 80px;
+}
+
+.verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+.fontsize {
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .sec4 {
+        background-color: #0e0e0e;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding-top: 200px;
+        height: 550px;
+    }
+
+    .footerDiv {
+        transform: translate(0%, -100%);
+
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .fontsize {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .fontsize {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .fontsize {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .artistSocialLink {
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .artistSocialLink {
+        width: 45px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .verticalCenter {
+        height: fit-content;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        transform: translate3d(-40px, 0, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        transform: translate3d(40px, 0, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {}
+
+    to {
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-delay: 0.2s;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}

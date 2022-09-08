@@ -32,8 +32,7 @@ try {
     animationDiv.forEach(fadeInUpDiv => {
         observer.observe(fadeInUpDiv)
     })
-} catch (error) {
-}
+} catch (error) {}
 
 function display() {
     document.getElementById("sold").classList.add("dis")
@@ -42,3 +41,16 @@ function display() {
 function disdisplay() {
     document.getElementById("sold").classList.remove("dis")
 }
+
+
+
+
+
+
+
+
+addEventListener('DOMContentLoaded', (event) => {
+    console.log('The page has fully loaded');
+    document.getElementById("loader").classList.add("invisible")
+    document.getElementById("content").classList.remove("invisible")
+});

@@ -49,8 +49,7 @@ function disdisplay() {
 
 
 
-addEventListener('DOMContentLoaded', (event) => {
-    console.log('The page has fully loaded');
+addEventListener('load', (event) => {
     document.getElementById("loader").classList.add("invisible")
     document.getElementById("content").classList.remove("invisible")
 });

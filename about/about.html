@@ -7,33 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="../images/wackLogo2.webp">
     <title>WACK</title>
 </head>
 
-<body>
+<body class="font">
 
-    <nav id="navbar" class="navbar py-1 bg-light navbar-expand-lg navbar-dark fixed-top ">
+    <nav id="navbar" class="navbar py-1 bg-light navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand logo animationDiv " href="#"><img class="animation4 animated w-100"
-                    src="../images/wackLogo.png" alt=""></a>
+            <a class="navbar-brand logo " href="#"><img class="w-100" src="../images/wackLogo.webp" alt=""></a>
             <div class="d-flex">
                 <ul class="nav nav-pills mt-0 d-none d-md-flex">
-                    <li class="animationDiv nav-item mx-4">
-                        <a class="animation4 animated nav-link py-0 text-dark wid1" href="../index.html#home">HOME</a>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link py-0 text-dark wid1" href="../index.html#home">HOME</a>
                     </li>
-                    <li class="animationDiv nav-item mx-4">
-                        <a class="animation4 delay2 animated nav-link py-0 text-dark wid2"
+                    <li class="nav-item mx-4">
+                        <a class="nav-link py-0 text-dark wid2"
                             href="../index.html#collections">Collections</a>
                     </li>
-                    <li class="animationDiv nav-item mx-4">
-                        <a class="animation4 delay3 animated nav-link py-0 text-dark wid3"
+                    <li class="nav-item mx-4">
+                        <a class="nav-link py-0 text-dark wid3"
                             href="../index.html#store">Store</a>
                     </li>
                 </ul>
-                <div class="animationDiv nav-item mx-4 d-none d-md-flex">
-                    <a class="animation4 delay3 animated py-0 text-dark wid3 act" href="#">About</a></div>
+                <div class="nav-item mx-4 d-none d-md-flex">
+                    <a class="py-0 text-dark wid3 text-center act" href="#">About</a></div>
             </div>
 
             <div class="btn-group d-block d-md-none">
@@ -42,21 +47,20 @@
                     <i class="fa-solid fa-bars fa-2xl"></i>
                 </button>
                 <ul
-                    class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start animation slideUpIn text-center nav-pills">
-                    <li class="animationDiv nav-item mx-4">
-                        <a class="animation4 animated nav-link py-0 text-dark text-center my-2"
-                            href="../index.html#home">HOME</a>
+                    class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start text-center nav-pills">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link py-0 text-dark text-center my-2" href="../index.html#home">HOME</a>
                     </li>
-                    <li class="animationDiv nav-item mx-4">
-                        <a class="animation4 delay2 animated nav-link py-0 text-dark text-center my-2"
+                    <li class="nav-item mx-4">
+                        <a class="nav-link py-0 text-dark text-center my-2"
                             href="../index.html#collections">Collections</a>
                     </li>
-                    <li class="animationDiv nav-item mx-4">
-                        <a class="animation4 delay3 animated nav-link py-0 text-dark text-center my-2"
+                    <li class="nav-item mx-4">
+                        <a class="nav-link py-0 text-dark text-center my-2"
                             href="../index.html#store">Store</a>
                     </li>
-                    <li class="animationDiv nav-item mx-4">
-                        <a class="animation4 delay4 animated py-0 text-dark text-center my-2" href="#">About</a>
+                    <li class="nav-item mx-4">
+                        <a class="py-0 text-dark text-center my-2" href="#">About</a>
                     </li>
                 </ul>
             </div>
@@ -66,15 +70,14 @@
 
 
     <section class="aboutSec1 container-fluid mt-5 pt-5 text-center">
-        <div class="row justify-content-center justify-content-md-between animationDiv ">
-            <div class="animationDiv">
-                <h1 class="animation4 animated ">ABOUT THE ARTIST</h1>
+        <div class="row justify-content-center justify-content-md-around ">
+                <h1 class="">ABOUT THE ARTIST</h1>
+            <div class="col-7 col-md-5 col-lg-3 col-xxl-4">
+                <img class="rounded h-100 w-100" src="../images/artist.png" alt="">
             </div>
-            <div class="col-7 col-md-5 col-lg-3 col-xxl-4 animationDiv">
-                <img class="animation2 animated rounded h-100 w-100" src="../images/artist.png" alt="">
-            </div>
-            <div class="animation1 animated mt-4 mt-md-0 col-11 col-md-7 col-xxl-6 bg-light rounded text-start px-4 py-4">
-                <p class="fontsize">Camille Chiang is a contemporary artist born and raised in Hong Kong and now residing in San
+            <div class="mt-4 mt-md-0 col-11 col-md-7 col-xxl-6 bg-light rounded text-start px-4 py-4">
+                <p class="fontsize">Camille Chiang is a contemporary artist born and raised in Hong Kong and now
+                    residing in San
                     Francisco. She focuses on capturing the detailed emotions of human behavior through a compelling
                     series of mixed media portraits. Camille moved to the states with the ambition of starting a career
                     in psychology - which is closly linked to her art; however ended up venturing into the web3 space
@@ -89,21 +92,25 @@
                     “My goal as an artist is to capture the small untold stories we all carry inside. I want to evoke
                     feelings and emotions that we often overlook or bury. Using mixed media, I work linearly from mess
                     to precision, joining the abstract and surrealist art worlds to express vulnerability and identity.”
-                    </p>
+                </p>
             </div>
-            <div class="col-12 col-lg-2 animationDiv my-4 my-lg-0">
-                <div class="animation4 animated bg-light rounded d-flex d-lg-block text-start px-4 py-4 fit-content m-auto h-100">
-                    <div class="animationDiv verticalCenter mx-3">
-                        <a class="fit-content" href="#"><img class="animation4 delay2 animated artistSocialLink"  src="../images/twitter.png" alt=""></a>
+            <div class="col-12 col-lg-1 my-4 my-lg-0">
+                <div class="bg-light rounded d-flex d-lg-block text-start px-4 py-4 fit-content m-auto h-100">
+                    <div class="verticalCenter mx-3">
+                        <a class="fit-content" href="#"><img class="artistSocialLink"
+                                src="../images/twitter.png" alt=""></a>
                     </div>
-                    <div class="animationDiv verticalCenter mx-3">
-                        <a class="fit-content" href="#"><img class="animation4 delay3 animated artistSocialLink"  src="../images/image.png" alt=""></a>
+                    <div class="verticalCenter mx-3">
+                        <a class="fit-content" href="#"><img class="artistSocialLink"
+                                src="../images/image.png" alt=""></a>
                     </div>
-                    <div class="animationDiv verticalCenter mx-3">
-                        <a class="fit-content" href="#"><img class="animation4 delay4 animated artistSocialLink"  src="../images/insta.png" alt=""></a>
+                    <div class="verticalCenter mx-3">
+                        <a class="fit-content" href="#"><img class="artistSocialLink"
+                                src="../images/insta.png" alt=""></a>
                     </div>
-                    <div class="animationDiv verticalCenter mx-3">
-                        <a class="fit-content" href="#"><img class="animation4 delay5 animated artistSocialLink"  src="../images/linkedin.png" alt=""></a>
+                    <div class="verticalCenter mx-3">
+                        <a class="fit-content" href="#"><img class="artistSocialLink"
+                                src="../images/linkedin.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -111,31 +118,23 @@
     </section>
 
 
-
-
-
-
-
     <section class="sec6">
         <div class="footer container-fluid position-relative">
             <div class="row justify-content-between">
                 <div class="col-12 text-center">
                     <div class="row justify-content-center">
-                        <div class="col-10 col-md-4 col-xl-3 footerDiv position-absolute text-center  pb-4">
-                            <img src="./images/wack!.png" alt="">
+                        <div class="col-10 col-md-5 col-xl-6 footerDiv position-absolute text-center pb-4">
+                            <img src="../images/wack!.png" alt="">
                             <h5>WACK! is a fine art collectible by the artist Camille Chiang. limited to 200 work, this
-                                collection is
+                                collection
+                                is
                                 a vibrant expression of the raw colorfulness of creation.</h5>
-                            <h5 class="weig mb-3">Follow Wack</h5>
-                            <a class="px-2 mb-2" href="#"><i class="fa-brands fa-twitter fa-2xl iconcolour"></i></a>
-                            <a class="px-2" href="#"><i class="fa-brands fa-instagram fa-2xl iconcolour"></i></i></a>
-                            <a class="px-2" href="#"><i class="fa-brands fa-discord fa-2xl iconcolour"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="animationDiv col-12 col-md-3 mt-5 justify-content-center text-center text-md-start">
-                    <div class="animation1 animated m-end fit-content m-auto">
-                        <h3 class="weig">QUICL LINKS</h3>
+                <div class="col-12 col-md-3 mt-5 justify-content-center text-center text-md-start">
+                    <div class="m-end fit-content m-auto">
+                        <h3 class="weig">QUICK LINKS</h3>
                         <div class="">
                             <a class="px-2 iconcolour" href="../index.html#home">Home</a> <br>
                             <a class="px-2 iconcolour" href="../index.html#collections">Collections</a> <br>
@@ -144,20 +143,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="animationDiv col-12 col-md-3 mt-5 text-center text-md-start">
-                    <div class="animation1 animated fit-content m-auto">
-                        <h3 class="weig">CONTACT US</h3>
-                        <a class="pe-2 iconcolour" href="#home">
-                            <i class="fa-solid fa-envelope fa-lg px-2 iconcolour"></i>lorem@gmail.com
-                        </a> <br>
-                        <p class="pe-2 iconcolour"><i class="fa-solid fa-phone fa-lg px-2 iconcolour"></i>+(123) 456 789
-                        </p>
+                <div class="col-12 col-md-3 mt-5 text-center">
+                    <div class="fit-content m-auto">
+                        <h3 class="weig mb-3">CONTACT US</h3>
+                        <a class="px-2 mb-2" href="https://twitter.com/e_e_eth?s=21" target="_blank"><i class="fa-brands fa-twitter fa-2xl iconcolour"></i></a>
+                        <a class="px-2" href="https://www.instagram.com/camilleachiang/" target="_blank"><i class="fa-brands fa-instagram fa-2xl iconcolour"></i></i></a>
+                        <a class="px-2" href="https://discord.com/invite/6d9ehGKtcX" target="_blank"><i class="fa-brands fa-discord fa-2xl iconcolour"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="animationDiv copyright justify-content-center text-center">
-            <h3 class="animation4 animated py-2 m-0">Copyright © 2022 Wack. All rights reserved</h3>
+        <div class="copyright justify-content-center text-center">
+            <h3 class="py-2 m-0">Copyright © 2022 Wack. All rights reserved</h3>
         </div>
     </section>
 

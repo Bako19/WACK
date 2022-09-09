@@ -6,6 +6,14 @@
     background-position: center;
 }
 
+.font {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.navbg {
+    background-color: white;
+}
+
 .sec4 {
     background-color: black;
 }
@@ -16,7 +24,7 @@
 
 .sec6 {
     background-color: white;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .wack {
@@ -46,48 +54,30 @@
     font-weight: 600;
 }
 
-.delay1 {
-    animation-delay: 0.2s;
-}
-
-.delay2 {
-    animation-delay: 0.4s !important;
-}
-
-.delay3 {
-    animation-delay: 0.6s !important;
-}
-
-.delay4 {
-    animation-delay: 0.8s !important;
-}
-
-.delay5 {
-    animation-delay: 1s !important;
-}
-
 a {
     text-decoration-line: none !important;
 }
 
 .footer {
     height: 300px;
-    background-color: #E5D498;
+    background-color: #1c768f;
 }
 
 .footerDiv {
-    background-color: #fefcf3;
-    border: 5px solid #ce995d;
+    background-color: #fbf3f2;
+    border: 5px solid #032539;
     transform: translate(0%, -20%);
 
 }
 
 .iconcolour {
-    color: #cd8e47;
+    color: white;
+    transition: color 0.3s;
 }
 
 .iconcolour:hover {
-    color: #cd8e47;
+    color: rgb(179, 179, 179);
+    transition: color 0.3s;
 }
 
 .weig {
@@ -95,7 +85,7 @@ a {
 }
 
 .copyright {
-    background-color: #DECA5F;
+    background-color: #fa991c;
 }
 
 .logo {
@@ -172,8 +162,35 @@ a {
     transform: translateX(-50%);
 }
 
+.e_eSec1 {
+    min-height: 100vh;
+    background-color: black;
+}
+
+.weight100 {
+    font-weight: 100 !important;
+}
+
+.game {
+    background-color: black;
+}
+
+.gameBtn {
+    box-shadow: none !important;
+}
+
+.green {
+    color: rgba(104, 175, 80, 1);
+    ;
+}
+
 @media only screen and (max-width: 992px) {
     .sec4 {
+        background-color: #0e0e0e;
+    }
+
+    .e_eSec1 {
+        min-height: 100vh;
         background-color: #0e0e0e;
     }
 }
@@ -185,7 +202,7 @@ a {
     }
 
     .footerDiv {
-        transform: translate(0%, -100%);
+        transform: translate(0%, -120%);
 
     }
 }
@@ -224,138 +241,4 @@ a {
     .verticalCenter {
         height: fit-content;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes fadeInUp {
-    from {
-        transform: translate3d(0, 40px, 0)
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
-}
-
-@keyframes fadeInRight {
-    from {
-        transform: translate3d(-40px, 0, 0)
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
-}
-
-@keyframes fadeInLeft {
-    from {
-        transform: translate3d(40px, 0, 0)
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
-}
-
-@keyframes fadeIn {
-    from {}
-
-    to {
-        opacity: 1
-    }
-}
-
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    opacity: 0;
-    animation-delay: 0.2s;
-}
-
-.fadeInUp {
-    animation-name: fadeInUp;
-}
-
-.fadeInRight {
-    animation-name: fadeInRight;
-}
-
-.fadeInLeft {
-    animation-name: fadeInLeft;
-}
-
-.fadeIn {
-    animation-name: fadeIn;
-}
-
-
-
-
-
-
-
-
-
-:root {
-    --main-color: #ecf0f1;
-    --point-color: #555;
-    --size: 5px;
-}
-
-.loader {
-    background-color: var(--main-color);
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    z-index: 100000;
-}
-
-.loader__element {
-    border-radius: 100%;
-    border: var(--size) solid var(--point-color);
-    margin: calc(var(--size)*2);
-}
-
-.loader__element:nth-child(1) {
-    animation: preloader .6s ease-in-out alternate infinite;
-}
-
-.loader__element:nth-child(2) {
-    animation: preloader .6s ease-in-out alternate .2s infinite;
-}
-
-.loader__element:nth-child(3) {
-    animation: preloader .6s ease-in-out alternate .4s infinite;
-}
-
-@keyframes preloader {
-    100% {
-        transform: scale(2);
-    }
-}
-
-.invisible{
-    display: none;
 }

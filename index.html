@@ -18,16 +18,17 @@
     <title>WACK</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example font"
-    tabindex="0">
-    <div id="window" class="fixed-bottom justify-content-center justify-content-sm-end text-end row d-none">
-        <div class="col-11 col-sm-7 col-md-6 col-lg-5 col-xl-4 col-xxl-3 me-0 me-sm-4 mb-4 position-relative">
-            <a onclick="closeBtn()" href="https://twitter.com/e_e_eth?s=21" target="_blank">
-                <img class="w-100 rounded" src="./images/message.png" alt="">
-            </a>
-            <button onclick="closeBtn()" class="btn fit-content p-0 position-absolute msgCloseBtn">
-                <i class="fa-solid fa-xmark fa-2xl"></i>
-            </button>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example font" tabindex="0">
+    <div onclick="closeBtn()" id="window" class="window container-fluid text-end d-none m-0 p-0">
+        <div class="row justify-content-center">
+            <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 window2">
+                <a onclick="closeBtn()" href="https://twitter.com/e_e_eth?s=21" target="_blank">
+                    <img class="w-100 rounded" src="./images/message.png" alt="">
+                </a>
+                <button onclick="closeBtn()" class="btn fit-content p-0 position-absolute msgCloseBtn">
+                    <i class="fa-solid fa-xmark fa-2xl"></i>
+                </button>
+            </div>
         </div>
     </div>
     <nav id="navbar" class="navbar py-1 bg-light navbar-expand-lg navbar-dark fixed-top">
@@ -71,41 +72,109 @@
         </div>
     </nav>
 
-    <section id="home" class="sec1">
-        <div class="row justify-content-center justify-content-lg-start w-100 position-absolute wack">
-            <img class="col-md-9 col-lg-7 col-xl-6 col-xxl-5 d-none d-md-block" src="./images/wackDesktop.png" alt="">
-            <img class="col-12 d-block d-md-none" src="./images/wackMobile.png" alt="">
+    <section id="home" class="">
+        <div class="sec1">
+            <div class="row justify-content-center w-100 position-absolute wack">
+                <img class="col-md-10 col-xl-8 col-xxl-7 d-none d-md-block" src="./images/wackDesktop.png" alt="">
+                <img class="col-12 d-block d-md-none" src="./images/wackMobile.png" alt="">
+            </div>
+        </div>
+        <div class="row pass justify-content-center container-fluid">
+            <div class="col-11 col-md-9 d-block d-lg-none mb-4">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="w-100 passImg" src="./images/pass1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-100" src="./images/pass2.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-100 passImg" src="./images/pass3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-11 col-lg-6">
+                <h1>WELCOME</h1>
+                <h4 class="text-capitalize">You have just entered the WACK! ecosystem!</h4>
+                <h4 class="text-capitalize alignText">WACK! is a creative art company focusing on identity through
+                    fashion. From
+                    designer shoes to hand-crafted hats, our mission is to uplift the uniqueness of each collector
+                    through vibrant color and personalized visuals. Apart from our store, we offer a range of services
+                    such as consultation for upcoming artists/projects and event entertainment. </h4>
+                <h4 class="d-block d-lg-none d-xl-block mt-4 alignText">
+                    <span class="h1">MEMBERSHIP</span> WACK! is a membership-based project. To access our drops, latest
+                    clothing, and
+                    more, you must be a holder of an NFT by Camille Chiang. Each of these collections grants different
+                    levels of access to the brand.
+                </h4>
+            </div>
+            <div class="col-5 d-none d-lg-block">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="w-100 passImg" src="./images/pass1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-100" src="./images/pass2.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-100 passImg" src="./images/pass3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <h4 class="d-none d-lg-block d-xl-none col-11 mt-4 alignText">
+                <span class="h1">MEMBERSHIP</span> WACK! is a membership-based project. To access our drops, latest
+                clothing, and
+                more, you must be a holder of an NFT by Camille Chiang. Each of these collections grants different
+                levels of access to the brand.
+            </h4>
         </div>
     </section>
 
 
 
-    <section id="collections" class="sec2 pt-5 text-center container-fluid mb-5">
+    <section id="collections" class="sec2 pt-5 text-center container-fluid my-5">
         <div class="row justify-content-center">
             <h1>DIGITAL COLLECTIONS</h1>
             <div class="col-11 col-xl-6">
-                <h5>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                    fugit,
-                    sed
-                    quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+                <h5>Click below to learn more about each of Camille's NFT projects. Every NFT is a unique piece of art,
+                    hand-drawn, and tokenized. Each collection is created through the blockchain and is traded with the
+                    currency of Ethereum.
                 </h5>
             </div>
             <div class="col-12 mb-5">
                 <div class="row justify-content-around">
-                    <div class="col-11 col-sm-5 col-lg-4 col-xl-3 mt-4">
-                        <img class="h-100 w-100" src="./images/col1.png" alt="">
-                    </div>
-                    <div class="col-11 col-sm-5 col-lg-4 col-xl-3 mt-4">
-                        <img class="h-100 w-100" src="./images/col2.png" alt="">
-                    </div>
                     <div class="col-11 col-sm-5 col-lg-4 col-xl-3 px-0 mt-4 position-relative">
-                        <img onmouseenter="display()" onmouseleave="disdisplay()" class="h-100 w-100 hov"
-                            src="./images/col3.png" alt="">
-                        <div onmouseenter="display()" onmouseleave="disdisplay()" id="sold"
+                        <img onmouseenter="display('sold1')" onmouseleave="disdisplay('sold1')" class="h-100 w-100 hov"
+                            src="./images/col1.png" alt="">
+                        <div onmouseenter="display('sold1')" onmouseleave="disdisplay('sold1')" id="sold1"
                             class="position-absolute w-100 h-100 filter">
                             <div class="position-relative w-100 h-100">
-                                <h3 class="text-end text-light m-4"><img src="./images/soldOut.png" alt=""></h3>
+                                <h1 class="position-absolute text-light w-100 verticalCenter2 ">e_e</h1>
+                                <a class="position-absolute text-light border px-3 py-2 h4 bottom" target="_blank"
+                                    href="./e_e/e_e.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-sm-5 col-lg-4 col-xl-3 px-0 mt-4 position-relative">
+                        <img onmouseenter="display('sold2')" onmouseleave="disdisplay('sold2')" class="h-100 w-100 hov"
+                            src="./images/col2.png" alt="">
+                        <div onmouseenter="display('sold2')" onmouseleave="disdisplay('sold2')" id="sold2"
+                            class="position-absolute w-100 h-100 filter">
+                            <div class="position-relative w-100 h-100">
                                 <h1 class="position-absolute text-light w-100 verticalCenter2 ">WACKIES!</h1>
+                                <a class="position-absolute text-light border px-3 py-2 h4 bottom" target="_blank"
+                                    href="https://wackies.io/">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-sm-5 col-lg-4 col-xl-3 px-0 mt-4 position-relative">
+                        <img onmouseenter="display('sold3')" onmouseleave="disdisplay('sold3')" class="h-100 w-100 hov"
+                            src="./images/col3.png" alt="">
+                                <img class="position-absolute soldOutImg" src="./images/soldOut.png" alt="">
+                        <div onmouseenter="display('sold3')" onmouseleave="disdisplay('sold3')" id="sold3"
+                            class="position-absolute w-100 h-100 filter">
+                            <div class="position-relative w-100 h-100">
+                                <h1 class="position-absolute text-light w-100 verticalCenter2 ">WACK!</h1>
                                 <a class="position-absolute text-light border px-3 py-2 h4 bottom" target="_blank"
                                     href="https://opensea.io/collection/wack-original">Read More</a>
                             </div>
@@ -144,10 +213,10 @@
 
 
 
-    <section class="sec5 container-fluid text-center py-5">
+    <section class="sec5 container-fluid text-center py-2">
         <div class="row justify-content-center my-2">
             <div class="d-block d-xl-flex justify-content-between col-12 col-xl-7 col-xxl-5">
-                <h2>Sign up for Camille’s Medium Articles</h2>
+                <h2 class="m-0">Sign up for Camille’s Medium Articles</h2>
                 <div class="my-lg-auto">
                     <a class="bg-primary text-light py-2 px-3 rounded" href="https://medium.com/@camilleachiang"
                         target="_blank">Join Today</a>

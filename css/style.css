@@ -210,19 +210,52 @@ input[type=number]::-webkit-outer-spin-button {
     border: none !important;
 }
 
-.msgCloseBtn{
+.msgCloseBtn {
     top: 5%;
     right: 5%;
     text-shadow: 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
 }
 
-.msgCloseBtn:hover{
+.msgCloseBtn:hover {
     color: #797974 !important;
 }
 
 .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%) !important;
+}
+
+.window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.471);
+    z-index: 999999999;
+    position: fixed;
+}
+
+.window2 {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pass {
+    padding-top: 100px;
+}
+
+.passImg {
+    margin-top: 30%;
+}
+
+.alignText {
+    text-align: justify;
+    -moz-text-align-last: left;
+    text-align-last: left;
+}
+
+.soldOutImg{
+    top: 0%;
+    right: 0%;
 }
 
 @media only screen and (max-width: 992px) {
@@ -235,7 +268,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-.windonone{
+.windonone {
     opacity: 0;
     transition: opacity 0.8s;
 }

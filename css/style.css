@@ -239,10 +239,6 @@ input[type=number]::-webkit-outer-spin-button {
     transform: translateY(-50%);
 }
 
-.pass {
-    padding-top: 100px;
-}
-
 .passImg {
     margin-top: 30%;
 }
@@ -306,6 +302,10 @@ input[type=number]::-webkit-outer-spin-button {
 @media only screen and (max-width: 510px) {
     .artistSocialLink {
         width: 60px;
+    }
+
+    .alignText{
+        font-size: 1rem;
     }
 }
 

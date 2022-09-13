@@ -6,8 +6,26 @@
     background-position: center;
 }
 
+@font-face {
+    font-family: helvetica;
+    src: url(../fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: 'helveticaBold';
+    src: url(../fonts/Helvetica-Bold.ttf);
+}
+
 .font {
     font-family: 'League Spartan', sans-serif;
+}
+
+.font2 {
+    font-family: helvetica;
+}
+
+.font3 {
+    font-family: 'helveticaBold';
 }
 
 .navbg {
@@ -24,7 +42,7 @@
 
 .sec6 {
     background-color: white;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .wack {
@@ -56,6 +74,10 @@
 
 a {
     text-decoration-line: none !important;
+}
+
+.a {
+    text-decoration-line: underline !important;
 }
 
 .footer {
@@ -117,7 +139,7 @@ a {
 }
 
 .aboutSec1 {
-    background-image: url(../images/se1Background.png);
+    background-image: url(../images/aboutBG.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,7 +147,7 @@ a {
 }
 
 .artistSocialLink {
-    width: 80px;
+    width: 70px;
 }
 
 .verticalCenter {
@@ -163,6 +185,11 @@ a {
 }
 
 .e_eSec1 {
+    background-color: black;
+    height: 100vh;
+}
+
+.e_eSec2 {
     background-color: black;
 }
 
@@ -240,7 +267,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .passImg {
-    margin-top: 30%;
+    margin-top: 50%;
 }
 
 .alignText {
@@ -249,7 +276,7 @@ input[type=number]::-webkit-outer-spin-button {
     text-align-last: left;
 }
 
-.soldOutImg{
+.soldOutImg {
     top: 0%;
     right: 0%;
 }
@@ -258,15 +285,22 @@ input[type=number]::-webkit-outer-spin-button {
     .sec4 {
         background-color: #0e0e0e;
     }
-
-    .e_eSec1 {
-        background-color: #0e0e0e;
-    }
 }
 
 .windonone {
     opacity: 0;
     transition: opacity 0.8s;
+}
+
+.line {
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(-65deg);
+}
+
+.bg-lightBlue{
+    background-color: #1c768f !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -304,7 +338,7 @@ input[type=number]::-webkit-outer-spin-button {
         width: 60px;
     }
 
-    .alignText{
+    .alignText {
         font-size: 1rem;
     }
 }

@@ -11,11 +11,6 @@
     src: url(../fonts/Helvetica.ttf);
 }
 
-@font-face {
-    font-family: 'helveticaBold';
-    src: url(../fonts/Helvetica-Bold.ttf);
-}
-
 .font {
     font-family: 'League Spartan', sans-serif;
 }
@@ -24,8 +19,12 @@
     font-family: helvetica;
 }
 
-.font3 {
-    font-family: 'helveticaBold';
+.font3{
+    font-family: 'Josefin Sans';
+}
+
+.weight700{
+    font-weight: 700 !important;
 }
 
 .navbg {
@@ -38,11 +37,6 @@
 
 .sec5 {
     background-color: #DFB191;
-}
-
-.sec6 {
-    background-color: white;
-    margin-top: 140px;
 }
 
 .wack {
@@ -81,14 +75,11 @@ a {
 }
 
 .footer {
-    height: 220px;
     background-color: #1c768f;
 }
 
 .footerDiv {
     background-color: #fbf3f2;
-    border: 5px solid #032539;
-    transform: translate(0%, -20%);
 
 }
 
@@ -301,18 +292,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 .bg-lightBlue{
     background-color: #1c768f !important;
-}
-
-@media only screen and (max-width: 768px) {
-    .footer {
-        padding-top: 150px;
-        height: 500px;
-    }
-
-    .footerDiv {
-        transform: translate(0%, -90%);
-
-    }
 }
 
 @media only screen and (max-width: 1500px) {
